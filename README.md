@@ -35,6 +35,14 @@ rpm -ivh heartbeat-8.17.1-x86_64.rpm
 
 ---
 
+Подключаемся к веб-интерфейсу http://127.0.0.1:5601 и в разделе discover
+
+можем видить логи с ВМ CMS
+
+![dz5-1](https://github.com/user-attachments/assets/36532c77-3be7-4cd6-a906-b8721ba6a8b1)
+
+
+
 
 
 
