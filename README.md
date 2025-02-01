@@ -17,6 +17,10 @@ rpm -UVh metricbeat-8.17.1-x86_64.rpm
 
 metricbeat modules enable nginx mysql
 
+Загружаем дашборды панелей мониторинга metricbeat для визуализации данных в Kibana:
+
+metricbeat setup --dashboards
+
 ---
 
 На ВМ мониторинга скачиваем и устанавливаем  elasticsearch, kibana и heartbeat:
@@ -41,12 +45,17 @@ rpm -ivh heartbeat-8.17.1-x86_64.rpm
 
 Подключаемся к веб-интерфейсу http://127.0.0.1:5601 и в разделе discover
 
-можем видить логи с ВМ CMS
+можем видеть логи с ВМ CMS
 
 ![dz5-1](https://github.com/user-attachments/assets/36532c77-3be7-4cd6-a906-b8721ba6a8b1)
 
+В разделе dashboards можем видеть метрики ВМ, nginx и mysql
 
+![dz5-2](https://github.com/user-attachments/assets/8b088c5c-ccc2-44a8-a4a7-4bd5107186f2)
 
+![dz5-4](https://github.com/user-attachments/assets/7da667b1-1c39-4d41-84c7-71a6756328f1)
+
+![dz5-3](https://github.com/user-attachments/assets/ec1b20d1-f643-453f-ad5d-cd884bc2b0c1)
 
 
 
