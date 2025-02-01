@@ -23,6 +23,23 @@ rpm -ivh kibana-8.17.1-linux-x86_64.tar.gz
 
 rpm -ivh heartbeat-8.17.1-x86_64.rpm
 
+---
+
+В /etc/filebeat/filebeat.yml настраиваем сбор логов nginx, php-fpm и mysql
+
+и доступ к elasticsearch и kibana. И запускаем filebeat.
+
+В /etc/metricbeat/metricbeat.yml настраиваем метрики ВМ, nginx и mysql
+
+и доступ к elasticsearch и kibana. И запускаем metricbeat
+
+---
+
+
+
+
+
+
 
 
 
