@@ -57,13 +57,13 @@ rpm -ivh heartbeat-8.17.1-x86_64.rpm
 
 ![dz5-3](https://github.com/user-attachments/assets/ec1b20d1-f643-453f-ad5d-cd884bc2b0c1)
 
+---
 
+В /etc/heartbeat/heartbeat.yml настраиваем проверку доступности веб-адресов CMS и порта mysql
 
+В веб-интерфейсе kibana можем наблюдать результаты проверки
 
-
-
-
-
+![dz5-6](https://github.com/user-attachments/assets/0fe0f05c-8ec4-4634-a0d1-fc9cdc23d566)
 
 
 
