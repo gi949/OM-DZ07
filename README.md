@@ -59,7 +59,7 @@ rpm -ivh heartbeat-8.17.1-x86_64.rpm
 
 ---
 
-В /etc/heartbeat/heartbeat.yml настраиваем проверку доступности веб-адресов CMS и порта mysql
+В /etc/heartbeat/heartbeat.yml настраиваем проверку доступности веб-адресов CMS и порта mysql. И запускаем metricbeat.
 
 В веб-интерфейсе kibana можем наблюдать результаты проверки
 
