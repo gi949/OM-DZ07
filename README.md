@@ -13,6 +13,10 @@ rpm -Uvh filebeat-8.17.0-x86_64.rpm
 
 rpm -UVh metricbeat-8.17.1-x86_64.rpm
 
+Включаем модули metricbeat nginx и mysql:
+
+metricbeat modules enable nginx mysql
+
 ---
 
 На ВМ мониторинга скачиваем и устанавливаем  elasticsearch, kibana и heartbeat:
